@@ -15,19 +15,19 @@ As objects enter the camera's view, the system attempts to identify them and dra
                     │
                     ▼
              ┌─────────────┐
-             │ Frame Capture│
+             │Frame Capture│
              └──────┬──────┘
                     │
                     ▼
              ┌─────────────┐
-             │ Preprocessing│
-             │   300 × 300  │
+             │Preprocessing│
+             │  300 × 300  │
              └──────┬──────┘
                     │
                     ▼
              ┌─────────────┐
-             │ MobileNet-SSD│
-             │   Inference  │
+             │MobileNet-SSD│
+             │  Inference  │
              └──────┬──────┘
                     │
                     ▼
